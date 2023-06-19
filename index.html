@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <picture class="header__avatar">
+                <source type="image/webp" srcset="img/avatar/avatar-1x.webp, img/avatar/avatar-2x.webp" media="(max-width: 2400px)">
+                <source type="image/png" srcset="img/avatar/avatar-1x.png, img/avatar/avatar-2x.png" media="(max-width: 2400px)">
+                <img src="./img/avatar/avatar-1x.png" alt="аватар">
+            </picture>
+            <a class="header__link" href="tg://resolve?domain=@V.MANIKURE">@V.MANIKURE</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero">
+            <div class="container hero-container">
+                <div class="hero__picture-wrapper">
+                    <picture>
+                        <source type="image/webp" srcset="img/hero/img-hero-1x.webp, img/hero/img-hero-2x.webp" media="(max-width: 2400px)">
+                        <source type="image/jpg" srcset="img/hero/img-hero-1x.jpg, img/hero/img-hero-2x.jpg" media="(max-width: 2400px)">
+                        <img src="./img/hero/img-hero-1x.jpg" alt="фото автора курсов">
+                    </picture>
+                    <div class="hero__picture-title">Я - ФУДИНА ВЕРА</div>
+                </div>
+                <p class="hero__descr">
+                    Я&nbsp;предлагаю вам проффесиональные курсы повышения квалификации и&nbsp;обучения маникюру и&nbsp;педикюру.
+                </p>
+                <h2 class="hero__title">МОИ РАБОТЫ</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <picture>
+                            <source type="image/webp" srcset="img/swiper/swipe-1-1x.webp, image/swiper/swipe-1-2x.webp" media="(max-width: 2400px)">
+                            <source type="image/jpg" srcset="img/swiper/swipe-1-1x.jpg, image/swiper/swipe-1-2x.jpg" media="(max-width: 2400px)">
+                            <img src="./img/swiper/swipe-1-1x.jpg" alt="первый слайд">
+                        </picture>
+                      </div>
+                      <div class="swiper-slide">
+                        <picture>
+                            <source type="image/webp" srcset="img/swiper/swipe-2-1x.webp, image/swiper/swipe-2-2x.webp" media="(max-width: 2400px)">
+                            <source type="image/jpg" srcset="img/swiper/swipe-2-1x.jpg, image/swiper/swipe-2-2x.jpg" media="(max-width: 2400px)">
+                            <img src="./img/swiper/swipe-2-1x.jpg" alt="второй слайд">
+                        </picture>
+                      </div>
+                      <div class="swiper-slide">
+                        <picture>
+                            <source type="image/webp" srcset="img/swiper/swipe-3-1x.webp, image/swiper/swipe-3-2x.webp" media="(max-width: 2400px)">
+                            <source type="image/jpg" srcset="img/swiper/swipe-3-1x.jpg, image/swiper/swipe-3-2x.jpg" media="(max-width: 2400px)">
+                            <img src="./img/swiper/swipe-3-1x.jpg" alt="третий слайд">
+                        </picture>
+                      </div>
+                      <div class="swiper-slide">
+                        <picture>
+                            <source type="image/webp" srcset="img/swiper/swipe-4-1x.webp, image/swiper/swipe-4-2x.webp" media="(max-width: 2400px)">
+                            <source type="image/jpg" srcset="img/swiper/swipe-4-1x.jpg, image/swiper/swipe-4-2x.jpg" media="(max-width: 2400px)">
+                            <img src="./img/swiper/swipe-4-1x.jpg" alt="четвертый слайд">
+                        </picture>
+                      </div>
+                      <div class="swiper-slide">
+                        <picture>
+                            <source type="image/webp" srcset="img/swiper/swipe-5-1x.webp, image/swiper/swipe-5-2x.webp" media="(max-width: 2400px)">
+                            <source type="image/jpg" srcset="img/swiper/swipe-5-1x.jpg, image/swiper/swipe-5-2x.jpg" media="(max-width: 2400px)">
+                            <img src="./img/swiper/swipe-5-1x.jpg" alt="пятый слайд">
+                        </picture>
+                      </div>
+                      ...
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
